@@ -1,0 +1,10 @@
+{
+    "analysis": {
+        "input": "analysis-input.txt",
+        "mode": "skr-disam"
+    },
+    "generation": {
+        "input": "generation-input.txt",
+        "mode": "skr-gener"
+    }
+}

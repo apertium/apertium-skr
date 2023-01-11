@@ -30,8 +30,9 @@
 PATTERNS
 ## Example inflection pattern:
 # NounRoot RegNounInfl
-Number
-Punctuation
+Adverb
+#Number
+#Punctuation
 
 
 ## Example inflection lexicon:
@@ -47,6 +48,12 @@ Punctuation
 ## Example stem lexicon:
 # LEXICON NounRoot
 # house:house   # A noun
+
+PATTERN Adverb
+AdverbRoot [<adv>:]
+
+LEXICON AdverbRoot
+vɑl # fine, again
 
 
 PATTERN Number

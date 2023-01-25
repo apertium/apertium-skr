@@ -55,6 +55,19 @@ $(LANG1).autogen.hfst: .deps/$(LANG1).RL.hfst
 .deps/$(LANG1).spellrelax.hfst: $(BASENAME).$(LANG1).spellrelax .deps/.d
 	hfst-regexp2fst -S -o $@ $<
 
+.deps/IPA2Arab.att: ArabIPA.lexd .deps/.d
+	lexd $< $@
+
+.deps/IPA2Arab.hfst: .deps/IPA2Arab.att
+	hfst-txt2fst $< -o $@
+
+.deps/Arab2IPA.hfst: .deps/IPA2Arab.hfst
+	hfst-invert $< -o $@
+
+# @TEMPORARY
+phon.bin: .deps/IPA2Arab.att
+	lt-comp rl $< $@
+
 $(LANG1).automorf.hfst: .deps/$(LANG1).LR.hfst .deps/$(LANG1).spellrelax.hfst
 	hfst-compose -1 $< -2 .deps/$(LANG1).spellrelax.hfst | hfst-invert | hfst-fst2fst -O -o $@
 

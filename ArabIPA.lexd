@@ -1,0 +1,57 @@
+PATTERNS
+IPA2Arab+
+
+LEXICON IPA2Arab
+a:ا # TODO
+b:ب
+ɓ:ٻ
+p:پ
+t:ت
+ʈ:ٹ
+s:ث
+dʒ:ج
+ʄ:ڄ
+tʃ:چ
+ɦ:ح
+x:خ
+d:د
+ɖ:ڈ
+ᶑ:ݙ
+z:ذ # TODO
+r:ر
+ɽ:ڑ
+z:ز # TODO
+ʒ:ژ
+s:س
+ʃ:ش
+s:ص
+z:ض
+t:ط
+z:ظ
+a:ع # TODO
+ɣ:غ
+f:ف
+q:ق
+k:ک
+g:گ
+ɠ:ڳ
+l:ل
+m:م
+n:ن
+̃:ں
+̃:٘
+̃:٘
+ɳ:ݨ
+v:و
+ɦ:ہ
+ʰ:ھ # TODO: or ʱ
+j:ی # TODO: or i
+e:ے
+ɓ:ٻ
+iʔ:ئ # ???
+aʔ:ؤ
+aː:آ
+
+# punctuation
+,:،
+؟:?

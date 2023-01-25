@@ -28,8 +28,8 @@
 ###############################################################################
 
 PATTERNS
-## Example inflection pattern:
-# NounRoot RegNounInfl
+NOUN
+VERB
 Adverb
 #Number
 #Punctuation
@@ -40,6 +40,20 @@ Adverb
 # <n><sg>:
 # <n><pl>:>s
 
+PATTERN NOUN
+NounRoot[m] NounInflMasc
+NounRoot[f] NounInflFem
+
+LEXICON NounInflMasc
+<n><m><sg>:ɑ
+<n><m><pl>:e
+
+LEXICON NounInflFem
+<n><f><sg>:i
+<n><f><pl>:ĩɑ̃
+
+PATTERN VERB
+VerbRoot [<v><imp>:]
 
 ###############################################################################
 ###                          L E X I C O N                                  ###
@@ -55,6 +69,23 @@ AdverbRoot [<adv>:]
 LEXICON AdverbRoot
 vɑl # fine, again
 
+#    male dog sing       kuta  bakra
+#    male dog  plural    kute  bakre
+#    female dog sing     kuti  bakri
+#    female  dog plural  kutija  bakrija
+
+LEXICON NounRoot
+kutɑ:kut[m] # dog
+kuti:kut[f] # dog
+bɑkrɑ:bɑkr[m] # goat
+bɑkri:bɑkr[f] # goat
+mɪnʊt:mɪnʊt[f] # request
+
+LEXICON VerbRoot
+aː # come
+pɑʈ # bite
+tʃɑl # walk
+ʊᶑ # fly
 
 PATTERN Number
 Numeral+ [<num>:]

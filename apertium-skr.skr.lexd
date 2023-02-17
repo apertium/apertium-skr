@@ -53,7 +53,45 @@ LEXICON NounInflFem
 <n><f><pl>:ĩɑ̃
 
 PATTERN VERB
-VerbRoot [<v><imp>:]
+VerbRoot [<v>:] VerbInfl
+
+LEXICON VerbInfl
+<pres><perf><p3><sg><m>:>yaa
+<pres><perf><p3><sg><f>:>yee
+<pres><perf><p3><pl><m>:>ye
+<pres><perf><p3><pl><f>:>eyaan
+
+<imp><sg>:
+<imp><pl>:>oo
+<imp><p3><sg>:>way
+<imp><sg><pol>:>wayn
+
+<pres><p1><sg><m>:>nd>a
+<pres><p1><sg><f>:>nd>yee
+<pres><p3><sg><m>:>nd>a
+<pres><p3><sg><f>:>nd>yee
+<pres><p3><pl><m>:>nd>an
+<pres><p3><pl><m>:>nd>ay
+<pres><p3><pl><f>:>nd>eyaan
+
+<sub><past><p2><sg><m>:>wayend>a
+<sub><past><p2><sg><f>:>wayend>ee
+<sub><past><p3><sg><m>:>wayend>a
+<sub><past><p3><sg><f>:>wayend>ee
+
+<sub><pres><???>:>warn>ay
+<sub><pres><???>:>warn>i
+
+<pres><perf><???>:>g>ayen
+<pres><perf><???>:>g>aye
+<pres><perf><p3><sg><f>:>g>ayee
+<pres><perf><???>:>an
+
+<fut><p1><sg><mf>:>s>aa
+<fut><p2><sg><mf>:>s>en
+<fut><p3><sg><mf>:>s>ee
+<fut><p1><pl><mf>:>s>ayn
+<fut><p3><pl><mf>:>s>ann
 
 ###############################################################################
 ###                          L E X I C O N                                  ###

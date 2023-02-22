@@ -56,42 +56,43 @@ PATTERN VERB
 VerbRoot [<v>:] VerbInfl
 
 LEXICON VerbInfl
-<pres><perf><p3><sg><m>:>yaa
-<pres><perf><p3><sg><f>:>yee
-<pres><perf><p3><pl><m>:>ye
-<pres><perf><p3><pl><f>:>eyaan
+<perf><p3><pl><m>+hen<vaux>:>g>ɑjen
+<perf><p3><pl><m>:>g>ɑje
+<perf><p3><sg><f>:>g>ɑjeː
+<perf><p3><sg><m>:>jɑː
+<perf><p3><sg><f>:>jeː
+<perf><p3><pl><m>:>je
+<perf><p3><pl><f>:>ejɑːn
+
+<impf><p1><sg><m>:>nd>ɑ
+<impf><p1><sg><f>:>nd>jeː
+<impf><p3><sg><m>:>nd>ɑ
+<impf><p3><sg><f>:>nd>jeː
+<impf><p3><pl><m>:>nd>ɑn
+<impf><p3><pl><m>:>nd>ɑj
+<impf><p3><pl><f>:>nd>ejɑːn
+
+<fut><p1><sg><mf>:>s>ɑː
+<fut><p2><sg><mf>:>s>en
+<fut><p3><sg><mf>:>s>eː
+<fut><p1><pl><mf>:>s>ɑjn
+<fut><p3><pl><mf>:>s>ɑnn
+
+<sub><sg><m><hum>:>wɑjend>ɑ
+<sub><sg><f><hum>:>wɑjend>eː
+<sub><pl><m><hum>:>wɑjend>ɑj
+<sub><pl><f><hum>:>wɑjend>eɑn
+<sub><p3><sg><m><inan>:>wɑrn>ɑ
+<sub><p3><sg><f><inan>:>wɑrn>i
+<sub><p3><pl><m><inan>:>wɑrn>ɑj
+<sub><p3><pl><f><inan>:>wɑrn>ijɑ
+
+<part>:>ɑn
 
 <imp><sg>:
-<imp><pl>:>oo
-<imp><p3><sg>:>way
-<imp><sg><pol>:>wayn
-
-<pres><p1><sg><m>:>nd>a
-<pres><p1><sg><f>:>nd>yee
-<pres><p3><sg><m>:>nd>a
-<pres><p3><sg><f>:>nd>yee
-<pres><p3><pl><m>:>nd>an
-<pres><p3><pl><m>:>nd>ay
-<pres><p3><pl><f>:>nd>eyaan
-
-<sub><past><p2><sg><m>:>wayend>a
-<sub><past><p2><sg><f>:>wayend>ee
-<sub><past><p3><sg><m>:>wayend>a
-<sub><past><p3><sg><f>:>wayend>ee
-
-<sub><pres><???>:>warn>ay
-<sub><pres><???>:>warn>i
-
-<pres><perf><???>:>g>ayen
-<pres><perf><???>:>g>aye
-<pres><perf><p3><sg><f>:>g>ayee
-<pres><perf><???>:>an
-
-<fut><p1><sg><mf>:>s>aa
-<fut><p2><sg><mf>:>s>en
-<fut><p3><sg><mf>:>s>ee
-<fut><p1><pl><mf>:>s>ayn
-<fut><p3><pl><mf>:>s>ann
+<imp><pl>:>oː
+<imp><p3><sg>:>wɑj
+<imp><sg><pol>:>wɑjn
 
 ###############################################################################
 ###                          L E X I C O N                                  ###
@@ -120,10 +121,11 @@ bɑkri:bɑkr[f] # goat
 mɪnʊt:mɪnʊt[f] # request
 
 LEXICON VerbRoot
-aː # come
+ɑː # come
 pɑʈ # bite
 tʃɑl # walk
 ʊᶑ # fly
+nɑtʃ # dance
 
 PATTERN Number
 Numeral+ [<num>:]

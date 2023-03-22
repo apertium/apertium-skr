@@ -45,12 +45,22 @@ NounRoot[m] NounInflMasc
 NounRoot[f] NounInflFem
 
 LEXICON NounInflMasc
-<n><m><sg>:ɑ
-<n><m><pl>:e
+<n><m><sg><dir>:ہ
+<n><m><pl><dir>:ے
+<n><m><sg><obl>:ے
+<n><m><pl><obl>:یاں
+<n><m><sg><voc>:یا
+<n><m><pl><voc>:یو
+<n><m><sg><abl>:یو
 
 LEXICON NounInflFem
-<n><f><sg>:i
-<n><f><pl>:ĩɑ̃
+<n><f><sg><dir>:ی
+<n><f><pl><dir>:یاں
+<n><f><sg><obl>:ی
+<n><f><sg><obl>:یاں
+<n><f><sg><voc>:ی
+<n><f><pl><voc>:یو
+<n><f><sg><abl>:یو
 
 PATTERN VERB
 VerbRoot [<v>:] VerbInfl

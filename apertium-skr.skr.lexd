@@ -32,6 +32,7 @@ NOUN
 VERB
 Adverb
 Conjunction
+Adjective
 #Number
 #Punctuation
 
@@ -128,6 +129,26 @@ LEXICON VerbInfl
 
 PATTERN Adverb
 AdverbRoot [<adv>:]
+
+PATTERN Adjective
+AdjectiveRoot [<adj>:] AdjInfl
+
+LEXICON AdjInfl
+<m><sg><dir>:ا
+<m><pl><dir>:ے
+<m><sg><obl>:ے
+<m><pl><obl>:یاں
+<m><sg><voc>:ے
+<m><sg><voc>:یا
+<m><pl><voc>:یو
+<m><sg><abl>:یو
+<f><sg><dir>:ی
+<f><pl><dir>:یاں
+<f><sg><obl>:ی
+<f><pl><obl>:یاں
+<f><sg><voc>:ی
+<f><pl><voc>:یو
+<f><sg><abl>:یو
 
 LEXICON AdjectiveRoot
 

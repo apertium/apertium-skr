@@ -66,43 +66,67 @@ PATTERN VERB
 VerbRoot [<v>:] VerbInfl
 
 LEXICON VerbInfl
-<perf><p3><pl><m>+hen<vaux>:>g>ɑjen
-<perf><p3><pl><m>:>g>ɑje
-<perf><p3><sg><f>:>g>ɑjeː
-<perf><p3><sg><m>:>jɑː
-<perf><p3><sg><f>:>jeː
-<perf><p3><pl><m>:>je
-<perf><p3><pl><f>:>ejɑːn
+<perf><p3><sg><m>:یا
+<perf><p3><sg><f>:ئی
+<perf><p3><pl><m>:ئے
+<perf><p3><pl><f>:ئیاں
+<perf
 
-<impf><p1><sg><m>:>nd>ɑ
-<impf><p1><sg><f>:>nd>jeː
-<impf><p3><sg><m>:>nd>ɑ
-<impf><p3><sg><f>:>nd>jeː
-<impf><p3><pl><m>:>nd>ɑn
-<impf><p3><pl><m>:>nd>ɑj
-<impf><p3><pl><f>:>nd>ejɑːn
+<pres><p1><sg><m>:ن٘دا
+<pres><p3><sg><m>:ن٘دا
+<pres><p1><sg><f>:ندی
+<pres><p3><sg><f>:ندی
+<pres><p3><pl><m>:ندن
+<pres><p1><pl><m>:ندے
+<pres><p3><pl><m>:ندے
+<pres><p1><pl><f>:ندئیاں
+<pres><p3><pl><f>:ندئیاں
 
-<fut><p1><sg><mf>:>s>ɑː
-<fut><p2><sg><mf>:>s>en
-<fut><p3><sg><mf>:>s>eː
-<fut><p1><pl><mf>:>s>ɑjn
-<fut><p3><pl><mf>:>s>ɑnn
+<cond><p1><sg><m>:ن٘دا
+<cond><p3><sg><m>:ن٘دا
+<cond><p1><sg><f>:ندی
+<cond><p3><sg><f>:ندی
+<cond><p3><pl><m>:ندن
+<cond><p1><pl><m>:ندے
+<cond><p3><pl><m>:ندے
+<cond><p1><pl><f>:ندئیاں
+<cond><p3><pl><f>:ندئیاں
 
-<sub><sg><m><hum>:>wɑjend>ɑ
-<sub><sg><f><hum>:>wɑjend>eː
-<sub><pl><m><hum>:>wɑjend>ɑj
-<sub><pl><f><hum>:>wɑjend>eɑn
-<sub><p3><sg><m><inan>:>wɑrn>ɑ
-<sub><p3><sg><f><inan>:>wɑrn>i
-<sub><p3><pl><m><inan>:>wɑrn>ɑj
-<sub><p3><pl><f><inan>:>wɑrn>ijɑ
+<impf><imp><p2><sg><m>:
+<impf><imp><p2><sg><f>:
+<impf><imp><p2><pl><m>:ؤ
+<impf><imp><p2><pl><f>:ؤ
+<impf><imp><p3><sg><m>:وے
+<impf><imp><p3><sg><f>:وے
+<impf><imp><p2><sg><m>:ویں
+<impf><imp><p2><sg><f>:ویں
+<impf><p1><sg><m>:ویندا
+<impf><p2><sg><m>:ویندا
+<impf><p3><sg><m>:ویندا
+<impf><p1><sg><f>:ویندی
+<impf><p2><sg><f>:ویندی
+<impf><p3><sg><f>:ویندی
+<impf><sg><m>:وݨے
+<impf><sg><m>:وݨے
+<impf><sg><m>:وݨے
+<impf><sg><f>:وݨی
+<impf><p1><pl><m>:ویندا
+<impf><p2><pl><m>:ویندا
+<impf><p3><pl><m>:ویندا
+<impf><p1><pl><f>:ویندا
+<impf><p2><pl><f>:ویندا
+<impf><p3><pl><f>:ویندا
 
-<part>:>ɑn
-
-<imp><sg>:
-<imp><pl>:>oː
-<imp><p3><sg>:>wɑj
-<imp><sg><pol>:>wɑjn
+<fut><p1><sg><m>:ساں
+<fut><p1><sg><f>:ساں
+<fut><p2><sg><m>:سیں
+<fut><p2><sg><f>:سیں
+<fut><p3><sg><m>:سی
+<fut><p3><sg><f>:سی
+<fut><p1><pl><m>:سیں
+<fut><p1><pl><f>:سیں
+<fut><p3><pl><m>:سن
+<fut><p3><pl><f>:سن
 
 ###############################################################################
 ###                          L E X I C O N                                  ###

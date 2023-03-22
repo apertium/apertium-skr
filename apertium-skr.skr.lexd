@@ -31,6 +31,7 @@ PATTERNS
 NOUN
 VERB
 Adverb
+Conjunction
 #Number
 #Punctuation
 
@@ -3019,6 +3020,8 @@ LEXICON VerbRoot
 وَیہ
 یاد
 
+LEXICON Conjunction
+تے<cnjcoo>:تے
 
 PATTERN Number
 Numeral+ [<num>:]

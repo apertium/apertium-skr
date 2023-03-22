@@ -34,12 +34,6 @@ Adverb
 #Number
 #Punctuation
 
-
-## Example inflection lexicon:
-# LEXICON RegNounInfl
-# <n><sg>:
-# <n><pl>:>s
-
 PATTERN NOUN
 NounRoot[m] NounInflMasc
 NounRoot[f] NounInflFem
@@ -70,7 +64,6 @@ LEXICON VerbInfl
 <perf><p3><sg><f>:ئی
 <perf><p3><pl><m>:ئے
 <perf><p3><pl><f>:ئیاں
-<perf
 
 <pres><p1><sg><m>:ن٘دا
 <pres><p3><sg><m>:ن٘دا

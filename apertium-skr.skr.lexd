@@ -205,8 +205,38 @@ AdverbRoot [<adv>:]
 PATTERN Pronoun
 PronounRoot [<Pro>:]ProInfl
 LEXICON ProInfl
+<m><sg><dir>:ݙا
+<m><pl><dir>:ݙے
+<m><sg><obl>:کوں
+<m><pl><obl>:کوں
+<m><sg><voc>:ݙیا
+<m><pl><voc>:ݙیو
+
+<f><sg><dir>:ݙی
+<f><pl><dir>:ݙیاں
+<f><sg><obl>:کوں
+<f><pl><obl>:کوں
+<f><sg><voc>:ݙی
+<f><pl><voc>:ݙیو
+
+<P3><m><sg><dir>:ندا
+<P3><m><pl><dir>:ندے
+<P3><m><sg><obl>:کوں
+<P3><m><pl><obl>:کوں
 
 
+<P3><f><sg><dir>:ن٘دی
+<P3><f><pl><dir>:ندیاں
+<P3><f><sg><obl>:کوں
+<P3><f><pl><obl>:کوں
+
+LEXICON PronounRoot
+می
+اسا
+تی
+تُہا
+او
+ای
 
 PATTERN Adjective
 AdjectiveRoot [<adj>:] AdjInfl

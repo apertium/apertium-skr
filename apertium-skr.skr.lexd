@@ -30,16 +30,22 @@
 PATTERNS
 NOUN
 VERB
+PROPN
 Adverb
 Conjunction
+Preposition
 Adjective
 Pronoun
+Determiner
+Auxilliary
 #Number
 #Punctuation
 
 PATTERN NOUN
-NounRoot[m] NounInflMasc
-NounRoot[f] NounInflFem
+NounRoot[m,-unmarked] NounInflMasc
+NounRoot[f,-unmarked] NounInflFem
+NounRoot[m,unmarked] [<n><m><sp>:]
+NounRoot[f,unmarked] [<n><f><sp>:]
 
 LEXICON NounInflMasc
 <n><m><sg><dir>:ہ
@@ -59,6 +65,10 @@ LEXICON NounInflFem
 <n><f><sg><voc>:ی
 <n><f><pl><voc>:یو
 <n><f><sg><abl>:یو
+
+PATTERN PROPN
+ProperNounRoot[m] [<np><m>:]
+ProperNounRoot[f] [<np><f>:]
 
 PATTERN VERB
 VerbRoot [<v>:] VerbInfl
@@ -205,6 +215,7 @@ AdverbRoot [<adv>:]
 
 PATTERN Pronoun
 PronounRoot [<prn>:] ProInfl
+UnmarkedPronoun
 LEXICON ProInfl
 <m><sg><dir>:ݙا
 <m><pl><dir>:ݙے
@@ -238,6 +249,9 @@ LEXICON PronounRoot
 تُہا
 او
 ای
+LEXICON UnmarkedPronoun
+توں<prn><p2><sg>:توں
+آپ<prn><p2><pl>:آپ
 
 PATTERN Adjective
 AdjectiveRoot [<adj>:] AdjInfl
@@ -801,7 +815,12 @@ LEXICON AdjectiveRoot
 پوش
 
 LEXICON AdverbRoot
-
+# negative adverbs TODO: tag as <neg>?
+ناں
+نئیں
+وِچ
+نہ
+کنوں
 
 اڳوں
 تاں
@@ -992,6 +1011,11 @@ LEXICON AdverbRoot
 
 
 LEXICON NounRoot
+گھر[m,unmarked]
+ہتھ[m,unmarked]
+ماء[f,unmarked]
+مون٘ہہ[m,unmarked]
+ڳالھ[f,unmarked]
 
 آتن:آتن[m,f]
 آجڑی:آجڑی[m]
@@ -3195,8 +3219,36 @@ LEXICON VerbRoot
 وَیہ
 یاد
 
+LEXICON ProperNounRoot
+اللہ[m]
+خدا[m]
+
 LEXICON Conjunction
 تے<cnjcoo>:تے
+یا<cnjcoo>:یا
+
+LEXICON Preposition
+# TODO: do we actually want tags on these?
+دا<pr><gen><m>:دا
+دی<pr><gen><f>:دی
+دی<pr><gen><f>:دِی # Dir/LR
+کوں<pr>:کوں
+وچ<pr>:وچ
+وچ<pr>:وِچ # Dir/LR
+کے<pr>:کے
+ءِچ<pr>:ءِچ
+
+LEXICON Determiner
+جو<det>:جو
+او<det>:او
+ہر<det><quant>:ہر
+اے<det>:اے
+کوئی<det>:کوئی
+جیڑھا<det>:جیڑھا
+
+LEXICON Auxilliary
+ڳئے<aux><m><pl>:ڳئے
+کئیں<aux><f><pl>:کئیں
 
 PATTERN Number
 Numeral+ [<num>:]

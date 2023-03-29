@@ -1,6 +1,9 @@
 [
 	! Unify apostrophe styles
-	[ ?* [ ' (->) [ %` | ʻ | ’ | ‘ | ʼ ] ] ?* ]
+	[ ?* [ ' (->) [ %` | ʻ | ’ | ‘ | ʼ ] ] ?* ] .o.
+
+    ! diacritics
+    [ ?* [ ا (->) اَ ] ?* ]
 
     ! composition operator, must appear between rules
     ! .o.

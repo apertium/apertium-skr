@@ -51,6 +51,7 @@ LEXICON NounInflMasc
 <n><m><sg><dir>:ہ
 <n><m><sg><dir>:ا 
 <n><m><pl><dir>:ے
+<n><m><pl><dir>:اں
 <n><m><sg><obl>:ے
 <n><m><pl><obl>:یاں
 <n><m><sg><voc>:یا
@@ -60,6 +61,7 @@ LEXICON NounInflMasc
 LEXICON NounInflFem
 <n><f><sg><dir>:ی
 <n><f><pl><dir>:یاں
+<n><f><pl><dir>:اں
 <n><f><sg><obl>:ی
 <n><f><sg><obl>:یاں
 <n><f><sg><voc>:ی

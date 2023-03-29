@@ -202,6 +202,12 @@ LEXICON VerbInfl
 PATTERN Adverb
 AdverbRoot [<adv>:]
 
+PATTERN Pronoun
+PronounRoot [<Pro>:]ProInfl
+LEXICON ProInfl
+
+
+
 PATTERN Adjective
 AdjectiveRoot [<adj>:] AdjInfl
 

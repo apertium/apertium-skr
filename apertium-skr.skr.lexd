@@ -225,6 +225,7 @@ LEXICON ProInfl
 <m><pl><obl>:کوں
 <m><sg><voc>:ݙیا
 <m><pl><voc>:ݙیو
+<fm><pl><ablative>:اں
 
 <f><sg><dir>:ݙی
 <f><pl><dir>:ݙیاں
@@ -245,12 +246,16 @@ LEXICON ProInfl
 <P3><f><pl><obl>:کوں
 
 LEXICON PronounRoot
+میں [fm, unmarked]
 می
 اسا
 تی
 تُہا
 او
+انھ
 ای
+اس
+تس
 LEXICON UnmarkedPronoun
 توں<prn><p2><sg>:توں
 آپ<prn><p2><pl>:آپ

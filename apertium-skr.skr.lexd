@@ -155,6 +155,7 @@ LEXICON VerbInfl
 
 <gerund><p1><sg><m>:ݨا
 
+ن٘دے
 
 <impP><p1><sg><m>:یندا
 <impP><p1><sg><f>:یندی
@@ -170,6 +171,21 @@ LEXICON VerbInfl
 <impP><p3><sg><f>:یندی
 <impP><p3><pl><m>:یندے
 <impP><p3><pl><f>:یندیاں
+
+<impP><p1><sg><m>:ندا
+<impP><p1><sg><f>:ندی
+<impP><p1><pl><m>:ن٘دے
+<impP><p1><pl><f>:ندیاں
+
+<impP><p2><sg><m>:ندا
+<impP><p2><sg><f>:ندی
+<impP><p2><pl><m>:ن٘دے
+<impP><p2><pl><f>:ندیاں
+
+<impP><p3><sg><m>:ندا
+<impP><p3><sg><f>:ندی
+<impP><p3><pl><m>:ن٘دے
+<impP><p3><pl><f>:ندیاں
 
 <fut><p1><sg><m>:ساں
 <fut><p1><sg><f>:ساں
@@ -2804,6 +2820,7 @@ LEXICON NounRoot
 
 LEXICON VerbRoot
 
+ہو
 آ
 آئی
 آکھ
@@ -3123,6 +3140,7 @@ LEXICON VerbRoot
 کھوہ
 کھیݙ
 کُہ
+وی
 کوہ
 کیئنسی
 کیت

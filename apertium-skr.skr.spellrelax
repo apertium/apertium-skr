@@ -4,7 +4,9 @@
 
     ! diacritics
     [ ?* [ ا (->) اَ ] ?* ] .o. 
-    [ ?* [ ت (->) تُ ] ?* ]
+    [ ?* [ ت (->) تُ ] ?* ] .o.
+    [ ?* [ ا (->) اُ ] ?* ]
+    
 
     ! composition operator, must appear between rules
     ! .o.

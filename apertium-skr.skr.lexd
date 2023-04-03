@@ -240,6 +240,11 @@ LEXICON ProInfl
 <P3><m><sg><obl>:کوں
 <P3><m><pl><obl>:کوں
 
+<f><sg><dir>:ی
+<f><pl><dir>:یاں
+<m><sg><dir>:ا
+<m><pl><dir>:ے
+
 
 <P3><f><sg><dir>:ن٘دی
 <P3><f><pl><dir>:ندیاں
@@ -258,6 +263,7 @@ LEXICON PronounRoot
 ای
 اس
 تُسں
+آپݨ
 تس
 LEXICON UnmarkedPronoun
 توں<prn><p2><sg>:توں

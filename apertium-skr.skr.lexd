@@ -283,6 +283,8 @@ LEXICON UnmarkedPronoun
 توں<prn><p2><sg>:توں
 آپ<prn><p2><pl>:آپ
 میں<pr><p1><sg>:میں
+کون<pr><sg>:کون
+کون<pr><pl>:کون
 
 PATTERN Adjective
 AdjectiveRoot [<adj>:] AdjInfl
@@ -847,12 +849,13 @@ LEXICON AdjectiveRoot
 
 LEXICON AdverbRoot
 # negative adverbs TODO: tag as <neg>?
+نہیں
 ناں
 نئیں
 وِچ
 نہ
 کنوں
-
+کہیں
 وِی
 اڳوں
 تاں
@@ -3304,6 +3307,8 @@ LEXICON Preposition
 وچ<pr>:وِچ # Dir/LR
 کے<pr>:کے
 ءِچ<pr>:ءِچ
+کیتے<pr>کیتے
+وِچوں<pr>وِچوں
 
 LEXICON Determiner
 جو<det>:جو
@@ -3317,6 +3322,7 @@ LEXICON Determiner
 اِیں<det>:اِیں
 کجھ<det>:کجھ
 کُجھ<det>:کُجھ
+جِہڑے<det>جِہڑے
 
 
 LEXICON Auxilliary

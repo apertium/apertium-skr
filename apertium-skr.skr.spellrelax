@@ -3,7 +3,8 @@
 	[ ?* [ ' (->) [ %` | ʻ | ’ | ‘ | ʼ ] ] ?* ] .o.
 
     ! diacritics
-    [ ?* [ ا (->) اَ ] ?* ]
+    [ ?* [ ا (->) اَ ] ?* ] .o. 
+    [ ?* [ ت (->) تُ ] ?* ]
 
     ! composition operator, must appear between rules
     ! .o.

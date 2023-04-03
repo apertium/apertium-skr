@@ -42,10 +42,12 @@ Auxilliary
 #Punctuation
 
 PATTERN NOUN
-NounRoot[m,-unmarked] NounInflMasc
-NounRoot[f,-unmarked] NounInflFem
-NounRoot[m,unmarked] [<n><m><sp>:]
-NounRoot[f,unmarked] [<n><f><sp>:]
+NounRoot[I,m] [<n><m>:] NounInflIrg
+NounRoot[I,f] [<n><f>:] NounInflIrg
+NounRoot[m,-unmarked,-I] NounInflMasc
+NounRoot[f,-unmarked,-I] NounInflFem
+NounRoot[m,unmarked,-I] [<n><m><sp>:]
+NounRoot[f,unmarked,-I] [<n><f><sp>:]
 
 LEXICON NounInflMasc
 <n><m><sg><dir>:ہ
@@ -57,7 +59,13 @@ LEXICON NounInflMasc
 <n><m><sg><voc>:یا
 <n><m><pl><voc>:یو
 <n><m><sg><abl>:یو
-<n><mf><pl>:اں
+
+
+LEXICON NounInflIrg
+<sg>:
+<pl>:اں
+
+
 
 LEXICON NounInflFem
 <n><f><sg><dir>:ی

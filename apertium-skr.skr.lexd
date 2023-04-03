@@ -257,6 +257,7 @@ LEXICON PronounRoot
 اسا
 تی
 تُہا
+اُو
 او
 اُنھ
 انھ
@@ -3272,6 +3273,7 @@ LEXICON Preposition
 دی<pr><gen><f>:دِی # Dir/LR
 دیاں<pr><gen><f><pl>:دیاں
 کوں<pr>:کوں
+کُوں<pr>:کُوں
 وچ<pr>:وچ
 وچ<pr>:وِچ # Dir/LR
 کے<pr>:کے
@@ -3288,7 +3290,7 @@ LEXICON Determiner
 LEXICON Auxilliary
 ڳئے<aux><m><pl>:ڳئے
 کئیں<aux><f><pl>:کئیں
-
+کرے<aux><m><f><pl><sg>:کرے
 PATTERN Number
 Numeral+ [<num>:]
 

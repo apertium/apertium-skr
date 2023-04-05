@@ -871,6 +871,7 @@ LEXICON AdjectiveRoot
 
 LEXICON AdverbRoot
 # negative adverbs TODO: tag as <neg>?
+ اݨ
 نھیں
 ہاں
 نہیں
@@ -2832,6 +2833,7 @@ LEXICON NounRoot
 یاری:یار[f]
 یتیم:یتیم[m,f]
 یقین:یقین[m]
+ٻکری:ٻکر[f]
 یہودیاں:یہودیاں[m,f]
 موت[f,unmarked]
 پیو[m,unmarked]
@@ -2855,6 +2857,20 @@ LEXICON NounRoot
 کوڑ[m,unmarked]
 ککھ[m,unmarked]
 بیشک[m,unmarked]
+قبر[f,unmarked]
+غریب[m,unmarked]
+سچ[m,unmarked]
+کاں[m,unmarked]
+اماں[f,unmarked]
+زمین[f,unmarked]
+رَبّ[m,unmarked]
+در[m,unmarked]
+ڳڑ[m,unmarked]
+مونہہ[m,unmarked]
+ݙن٘د[m,unmarked]
+سِر[m,unmarked]
+ڳڑ[m,unmarked]
+
 
 
 LEXICON VerbRoot
@@ -3388,7 +3404,11 @@ LEXICON Preposition
 کیتے<pr>:کیتے
 وِچوں<pr>:وِچوں
 اِچ<pr>:اِچ
+جے<pr>:جے
+نے<pr>:نے
 واہ<pr>:واہ
+کنُوں<pr>:کنُوں
+
 
 
 LEXICON Determiner
@@ -3410,6 +3430,10 @@ LEXICON Determiner
 ءِی<det>:ءِی
 ٻیا<det>:ٻیا
 جیڑھی<det>:جیڑھی
+جین٘دی<det>:جین٘دی
+ایں<det>:ایں
+اِیہ<det>:اِیہ
+
 
 
 
@@ -3425,6 +3449,9 @@ LEXICON Auxilliary
 ہوندے<aux><m><pl>:ہوندے
 ہون٘دی<aux><f><sg>:ہون٘دی
 ویندے<aux><m><pl>:ویندے
+ݙین٘دی<auz><f><sg>:ݙین٘دی
+
+
 
 
 
@@ -3435,6 +3462,11 @@ LEXICON Auxilliary
 PATTERN Number
 Numeral+ [<num>:]
 ہِک<num>:ہِک
+ہِک<num>:ہِک
+ہکو<num>:ہکو
+چار<num>:چار
+
+
 LEXICON Numeral
 ہِک<num>:ہِک
 0

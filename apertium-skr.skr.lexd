@@ -38,8 +38,8 @@ Adjective
 Pronoun
 Determiner
 Auxilliary
-#Number
-#Punctuation
+Number
+Punctuation
 
 PATTERN NOUN
 NounRoot[I,m] [<n><m>:] NounInflIrg
@@ -297,6 +297,8 @@ LEXICON PronounRoot
 تُسں
 آپݨ
 اُنہ
+این
+سا
 تس
 LEXICON UnmarkedPronoun
 توں<prn><p2><sg>:توں
@@ -872,7 +874,9 @@ LEXICON AdjectiveRoot
 
 LEXICON AdverbRoot
 # negative adverbs TODO: tag as <neg>?
- اݨ
+ٻیٹھی
+کائے
+اݨ
 نھیں
 ہاں
 نہیں
@@ -2871,7 +2875,21 @@ LEXICON NounRoot
 ݙن٘د[m,unmarked]
 سِر[m,unmarked]
 ڳڑ[m,unmarked]
-
+پار[m,unmarked]
+ملّاں[m,unmarked]
+ویر[m,unmarked]
+شاہ[m,unmarked]
+ساہ[m,unmarked]
+حال[m,unmarked]
+ہدایت[f,unmarked]
+کتاب[f,unmarked]
+ذال[f,unmarked]
+چھاں[f,unmarked]
+ݙِتی[f,unmarked]
+سڄݨ[m,unmarked]
+جان[f,unmarked]
+تھاں[f,unmarked]
+لڳی[f,unmarked]
 
 
 LEXICON VerbRoot
@@ -3379,6 +3397,10 @@ LEXICON ProperNounRoot
 خدا[m]
 ڄٹ[m]
 رب[m]
+ساوݨ[m]
+مسیت[f]
+
+
 
 LEXICON Conjunction
 تے<cnjcoo>:تے

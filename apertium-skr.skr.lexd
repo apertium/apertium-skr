@@ -3461,7 +3461,9 @@ LEXICON Auxilliary
 
 
 PATTERN Number
+Num
 Numeral+ [<num>:]
+LEXICON Num
 ہِک<num>:ہِک
 ہِک<num>:ہِک
 ہکو<num>:ہکو
@@ -3469,7 +3471,6 @@ Numeral+ [<num>:]
 
 
 LEXICON Numeral
-ہِک<num>:ہِک
 0
 1
 2

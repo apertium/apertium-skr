@@ -295,6 +295,7 @@ LEXICON PronounRoot
 اس
 تُسں
 آپݨ
+اُنہ
 تس
 LEXICON UnmarkedPronoun
 توں<prn><p2><sg>:توں
@@ -880,6 +881,7 @@ LEXICON AdverbRoot
 کہیں
 وِی
 اڳوں
+کول
 تاں
 اڄ
 پچھوں
@@ -2842,7 +2844,16 @@ LEXICON NounRoot
 شئے[f,unmarked]
 دم[m,unmarked]
 زبان[f,unmarked]
-
+مٹی[f,unmarked]
+راہ[f,unmarked]
+سیر[f,unmarked]
+برابر[m,unmarked]
+نک[m,unmarked]
+دنیا[f,unmarked]
+بھیݙ[f,unmarked]
+کوڑ[m,unmarked]
+ککھ[m,unmarked]
+بیشک[m,unmarked]
 
 
 LEXICON VerbRoot
@@ -2854,6 +2865,9 @@ LEXICON VerbRoot
 ڄاݨے[unmarked]
 تھیا[unmared]
 ون٘ڄے[unmarked]
+ݙیو[unmarked]
+ݙیو[unmarked]
+
 
 وی
 ݙی
@@ -3352,6 +3366,9 @@ LEXICON Conjunction
 تے<cnjcoo>:تے
 یا<cnjcoo>:یا
 آلے<cnjcoo>:آلے
+آلا<cnjoo>:آلا
+آں<cnjoo>:آں
+
 
 LEXICON Preposition
 # TODO: do we actually want tags on these?
@@ -3369,6 +3386,9 @@ LEXICON Preposition
 وِچوں<pr>:وِچوں
 کیتے<pr>:کیتے
 وِچوں<pr>:وِچوں
+اِچ<pr>:اِچ
+واہ<pr>:واہ
+
 
 LEXICON Determiner
 جو<det>:جو
@@ -3388,6 +3408,7 @@ LEXICON Determiner
 ایہ<det>:ایہ
 ءِی<det>:ءِی
 ٻیا<det>:ٻیا
+جیڑھی<det>:جیڑھی
 
 
 
@@ -3399,13 +3420,22 @@ LEXICON Auxilliary
 پئی<aux><f><sg>:پئی
 ہووی<aux><f><m><pl><sg>:ہووی
 وین٘دی<aux><f><sg>:وین٘دی
+ویندے<aux><m><pl>:ویندے
+ہوندے<aux><m><pl>:ہوندے
+ہون٘دی<aux><f><sg>:ہون٘دی
+ویندے<aux><m><pl>:ویندے
+
+
+
+
 کرو<aux><f><m><sg><pl>:کرو
 
 
 PATTERN Number
 Numeral+ [<num>:]
-
+ہِک<num>:ہِک
 LEXICON Numeral
+ہِک<num>:ہِک
 0
 1
 2

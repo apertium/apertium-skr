@@ -301,12 +301,13 @@ LEXICON PronounRoot
 LEXICON UnmarkedPronoun
 توں<prn><p2><sg>:توں
 آپ<prn><p2><pl>:آپ
-میں<pr><p1><sg>:میں
-کون<pr><sg>:کون
-کون<pr><pl>:کون
-اوں<pr><sg>:اوں
-اُوں<pr><sg>:اُوں
-آپڑیں<pr><pl>:آپڑیں
+میں<prn><p1><sg>:میں
+کون<prn><sg>:کون
+کون<prn><pl>:کون
+اوں<prn><sg>:اوں
+اُوں<prn><sg>:اُوں
+آپڑیں<prn><pl>:آپڑیں
+تہاݙے<prn><P2><p>:تہاݙے
 
 PATTERN Adjective
 AdjectiveRoot [<adj>:] AdjInfl

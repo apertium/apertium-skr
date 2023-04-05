@@ -40,6 +40,7 @@ Determiner
 Auxilliary
 Number
 Punctuation
+xwords
 
 PATTERN NOUN
 NounRoot[I,m] [<n><m>:] NounInflIrg
@@ -300,6 +301,11 @@ LEXICON PronounRoot
 این
 سا
 تس
+جی
+تہا
+اونک
+اِنھ
+
 LEXICON UnmarkedPronoun
 توں<prn><p2><sg>:توں
 آپ<prn><p2><pl>:آپ
@@ -310,6 +316,25 @@ LEXICON UnmarkedPronoun
 اُوں<prn><sg>:اُوں
 آپڑیں<prn><pl>:آپڑیں
 تہاݙے<prn><P2><p>:تہاݙے
+مَیں<prn><p1><sg>:مَیں
+جنہاں<prn><p3><pl>:جنہاں
+آپڑیاں<prn><p1><pl>:آپڑیاں
+انہاں<prn><p3><pl>:انہاں
+اپݨے<prn><p1><pl>:اپݨے
+جِنھاں<prn><p3><pl>:جِنھاں
+
+
+PATTERN xwords
+LEXICON xwords
+
+کو
+ٻارہاں
+بار
+وال
+آلی
+وا
+نی
+آں
 
 PATTERN Adjective
 AdjectiveRoot [<adj>:] AdjInfl
@@ -802,11 +827,20 @@ LEXICON AdjectiveRoot
 اُچ
 اُت
 آڳا
+کوݙ
 آکڑ
 آدھ
 
 LEXICON AdjectiveRoot
 
+بد
+خوش
+ٻَہوں
+اندروں
+بھت
+ادھ
+کلھا
+لال
 ڈھونگر
 پاء
 بو
@@ -875,6 +909,7 @@ LEXICON AdjectiveRoot
 LEXICON AdverbRoot
 # negative adverbs TODO: tag as <neg>?
 ٻیٹھی
+کولھ
 کائے
 اݨ
 نھیں
@@ -1079,6 +1114,7 @@ LEXICON ConjunctionRoot
 تے
 تاں
 اَتے
+اتے
 اتے
 ٻیا
 ول
@@ -2890,6 +2926,122 @@ LEXICON NounRoot
 جان[f,unmarked]
 تھاں[f,unmarked]
 لڳی[f,unmarked]
+نماز[f,unmarked]
+ککِڑ[m,unmarked]
+شَئیں[f,unmarked]
+روح[f,unmarked]
+ݙاہ[f,unmarked]
+لڳا[f,unmarked]
+پُتر[f,unmarked]
+اولاد[f,unmarked]
+ادھار[f,unmarked]
+کراڑ[f,unmarked]
+جہان[f,unmarked]
+پھل[f,unmarked]
+پت[f,unmarked]
+ٻیر[m,unmarked]
+بو[m,unmarked]
+الف[m,unmarked]
+وار[m,unmarked]
+ہتھاں[m,unmarked]
+ہار[f,unmarked]
+نیک[m,unmarked]
+مݨ[m,unmarked]
+مثال[f,unmarked]
+قول[m,unmarked]
+قدر[f,unmarked]
+فقیر[m,unmarked]
+ظالم[m,unmarked]
+سوّڑ[f,unmarked]
+ڳوہ[f,unmarked]
+گھاہ[m,unmarked]
+کن٘دھی[f,unmarked]
+کمبھار[m,unmarked]
+اسمان[m,unmarked]
+استاد[m,unmarked]
+لت[f,unmarked]
+عذاب[m,unmarked]
+ݙان٘د[f,unmarked]
+دھن[f,unmarked]
+حرام[m,unmarked]
+دارو[f,unmarked]
+خان[m,unmarked]
+چھپر[m,unmarked]
+چم[m,unmarked]
+جوڳی[m,unmarked]
+ٹکر[f,unmarked]
+تیر[m,unmarked]
+پیراں[m,unmarked]
+پڳ[f,unmarked]
+یقین[m,unmarked]
+وصل[m,unmarked]
+نان٘گ[f,unmarked]
+کن٘ڈ[f,unmarked]
+فرق[m,unmarked]
+قائم[m,unmarked]
+عقل[f,unmarked]
+دیر[f,unmarked]
+ڈڈھ[m,unmarked]
+دِل[m,unmarked]
+پتھر[m,unmarked]
+مُل[m,unmarked]
+ڳاں[f,unmarked]
+شیطان[m,unmarked]
+ڈھڈھ[m,unmarked]
+حق[m,unmarked]
+تیل[m,unmarked]
+ترائے[f,unmarked]
+بھیݨ[f,unmarked]
+گݙان٘ھ[f,unmarked]
+حکم[m,unmarked]
+ظلم[m,unmarked]
+شیر[m,unmarked]
+بھاڄی[f,unmarked]
+گدڑ[m,unmarked]
+شہر[m,unmarked]
+شکل[f,unmarked]
+دال[f,unmarked]
+پیٹ[m,unmarked]
+پنج[f,unmarked]
+مرد[m,unmarked]
+قیامت[f,unmarked]
+زور[m,unmarked]
+دعا[f,unmarked]
+چُت[f,unmarked]
+جن٘ڄ[f,unmarked]
+جڳ[m,unmarked]
+پن٘ج[f,unmarked]
+پاولی[m,unmarked]
+بھیݙاں[f,unmarked]
+بٹھ[m,unmarked]
+اِیمان[m,unmarked]
+امیر[m,unmarked]
+آن[m,unmarked]
+شکر[m,unmarked]
+شریک[m,unmarked]
+سوّر[m,unmarked]
+سوا[f,unmarked]
+سلامت[m,unmarked]
+سروں[f,unmarked]
+ریت[f,unmarked]
+راضی[f,unmarked]
+ݙین٘ہ[m,unmarked]
+مان٘واں[f,unmarked]
+گݙان٘ہہ[f,unmarked]
+مین٘ہ[f,unmarked]
+مہمان[m,unmarked]
+ملتان[m,unmarked]
+مکھی[f,unmarked]
+لوڑ[f,unmarked]
+ڳان٘ھ[f,unmarked]
+گِھدا[f,unmarked]
+کھوتی[f,unmarked]
+کمی[f,unmarked]
+کُڑ[m,unmarked]
+
+
+
+
 
 
 LEXICON VerbRoot
@@ -2903,7 +3055,11 @@ LEXICON VerbRoot
 ون٘ڄے[unmarked]
 ݙیو[unmarked]
 ݙیو[unmarked]
-
+پاء[unmarked]
+ݙٹھا[unmarked]
+ݙین٘دا[unmarked]
+وین٘دا[unmarked]
+کرین٘دے[unmarked]
 
 وی
 ݙی
@@ -3399,6 +3555,9 @@ LEXICON ProperNounRoot
 رب[m]
 ساوݨ[m]
 مسیت[f]
+ہاڑھ[m]
+ابراہیم[m]
+
 
 
 
@@ -3408,6 +3567,7 @@ LEXICON Conjunction
 آلے<cnjcoo>:آلے
 آلا<cnjoo>:آلا
 آں<cnjoo>:آں
+اتے<cnjoo>:اتے
 
 
 LEXICON Preposition
@@ -3431,6 +3591,8 @@ LEXICON Preposition
 نے<pr>:نے
 واہ<pr>:واہ
 کنُوں<pr>:کنُوں
+کہ<pr>:کہ
+طرفوں<pr>:طرفوں
 
 
 
@@ -3456,6 +3618,16 @@ LEXICON Determiner
 جین٘دی<det>:جین٘دی
 ایں<det>:ایں
 اِیہ<det>:اِیہ
+جِہڑی<det>:جِہڑی
+اِی<det>:اِی
+جئیں<det>:جئیں
+ایہو<det>:ایہو
+کیہیں<det>:کیہیں
+سبھ<det>:سبھ
+جہیں<det>:جہیں
+کیڑھی<det>:کیڑھی
+کتھ<det>:کتھ
+جین٘دا<det>:جین٘دا
 
 
 
@@ -3472,7 +3644,13 @@ LEXICON Auxilliary
 ہوندے<aux><m><pl>:ہوندے
 ہون٘دی<aux><f><sg>:ہون٘دی
 ویندے<aux><m><pl>:ویندے
-ݙین٘دی<auz><f><sg>:ݙین٘دی
+ݙین٘دی<aux><f><sg>:ݙین٘دی
+ہوئی<aux><f><sg>:ہوئی
+نیں<aux><f><sg>:نیں
+ڳیاں<aux><f><pl>:ڳیاں
+تھئی<aux><f><sg>:تھئی
+تھین٘دی<aux><f><sg>:تھین٘دی
+پون٘دی<aux><f><sg>:پون٘دی
 
 
 
@@ -3490,6 +3668,11 @@ LEXICON Num
 ہِک<num>:ہِک
 ہکو<num>:ہکو
 چار<num>:چار
+ݙوجھا<num>:ݙوجھا
+ست<num>:ست
+دو<num>:دو
+
+
 
 
 LEXICON Numeral

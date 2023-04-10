@@ -310,19 +310,20 @@ LEXICON PronounRoot
 LEXICON UnmarkedPronoun
 توں<prn><p2><sg>:توں
 آپ<prn><p2><pl>:آپ
-میں<prn><p1><sg>:میں
+میں<prn><p1><sg>:میں# Dir/LR
 کون<prn><sg>:کون
 کون<prn><pl>:کون
-اوں<prn><sg>:اوں
-اُوں<prn><sg>:اُوں
+اوں<prn><sg>:اوں# Dir/LR
+اُوں<prn><sg>:اُوں# Dir/LR
 آپڑیں<prn><pl>:آپڑیں
 تہاݙے<prn><P2><p>:تہاݙے
-مَیں<prn><p1><sg>:مَیں
-جنہاں<prn><p3><pl>:جنہاں
+مَیں<prn><p1><sg>:مَیں# Dir/LR
+جنہاں<prn><p3><pl>:جنہاں# Dir/LR
 آپڑیاں<prn><p1><pl>:آپڑیاں
 انہاں<prn><p3><pl>:انہاں
 اپݨے<prn><p1><pl>:اپݨے
-جِنھاں<prn><p3><pl>:جِنھاں
+جِنھاں<prn><p3><pl>:جِنھاں# Dir/LR
+آپے<prn><p3><p1>:آپے
 
 
 PATTERN xwords
@@ -335,6 +336,8 @@ LEXICON xwords
 آلی
 وا
 نی
+ان
+ہائے
 آں
 
 PATTERN Adjective
@@ -358,6 +361,11 @@ LEXICON AdjInfl
 <f><sg><abl>:یو
 
 LEXICON AdjectiveRoot
+رادھ
+سدھ
+
+
+
 
 کجل
 ݙاڈھ
@@ -833,7 +841,7 @@ LEXICON AdjectiveRoot
 آدھ
 
 LEXICON AdjectiveRoot
-
+سخی
 بد
 خوش
 ٻَہوں
@@ -905,7 +913,14 @@ LEXICON AdjectiveRoot
 ٹھیک
 ٹھاڈل
 ٹٹو
+پاک
+اصل
+احمق
+تیار
 پوش
+
+شوم
+
 
 LEXICON AdverbRoot
 # negative adverbs TODO: tag as <neg>?
@@ -916,6 +931,7 @@ LEXICON AdverbRoot
 نھیں
 ہاں
 نہیں
+بھوئیں
 ناں
 نئیں
 وِچ
@@ -970,6 +986,9 @@ LEXICON AdverbRoot
 اوہو
 بھنی
 زیادہ
+کتھوں
+بلکہ
+مُتوں
 بی
 کئی
 اُتھائیں
@@ -1151,10 +1170,47 @@ LEXICON NounRoot
 دل[m,unmarked]
 رات[f,unmarked]
 گھیو[m,unmarked]
-
-
-
-
+سلام[m,unmarked]
+سلام[I,m]
+صحت[I,m]
+صحت[f,unmarked]
+صبر[m,unmarked]
+سس[I,f]
+پروݨ[m]
+وخت[m,unmarked]
+کتّ[m] #Dir/LR
+ذال[I,f]
+دھی[I,f}
+دُھپ[I,m]
+حیا[I,f]
+حیاتی[I,f]
+چھڄ[I,f]
+جَیں[I,f]
+سال[I,m]
+رام[m,unmarked]
+ݙینہہ[m,umarked]
+برکت[I,f]
+بھُوم[m,unmarked]
+اکّھ[I,f]
+آخرت[f,unmarked]
+ہتھ[m]
+نیت[I,f]
+شَئے[I,f]
+نور[I,m]
+من٘جھ[I,m]
+ملک[I,m]
+مت[I,f]
+مُتر[m,unmarked]
+مالک[I,m]
+قوم[I,f]
+قسمت[I,f]
+قرار[m,unmarked]
+قتل[I,m]
+فرمانبردار[f]
+عمر[I,f]
+عزت[I,f]
+طمع[f,unmarked]
+شین٘ہ[m,unmarked]
 آتن:آتن[m,f]
 آجڑی:آجڑی[m]
 آخرت:آخرت[f]
@@ -1945,9 +2001,10 @@ LEXICON NounRoot
 ݙر:ݙر[m]
 ݙکار:ݙکار[f]
 ݙُکل:ݙُکل[f]
-ݙکھ:ݙکھ[m]
+ݙکھ:ݙکھ[I,m]
 ݙُُکھ:ݙُُکھ[m,f]
-ݙکھݨ:ݙکھݨ[m,f]
+ݙکھݨ:ݙکھݨ[I,m]
+ݙکھݨ:ݙکھݨ[m]
 ݙن٘بھ:ݙن٘بھ[m]
 ݙنداں:ݙنداں[m,f]
 ݙن٘د:ݙن٘د[m]

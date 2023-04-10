@@ -341,7 +341,8 @@ LEXICON xwords
 آں
 
 PATTERN Adjective
-AdjectiveRoot [<adj>:] AdjInfl
+AdjectiveRoot[-unmarked] [<adj>:] AdjInfl
+AdjectiveRoot[unmarked] [<adj>:]
 
 LEXICON AdjInfl
 <m><sg><dir>:ا
@@ -840,7 +841,7 @@ LEXICON AdjectiveRoot
 آکڑ
 آدھ
 
-LEXICON AdjectiveRoot
+LEXICON AdjectiveRoot[unmarked]
 سخی
 بد
 خوش

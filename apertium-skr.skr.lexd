@@ -63,9 +63,9 @@ LEXICON NounInflMasc
 
 
 LEXICON NounInflIrg
-<sg>:
-<pl>:اں
-
+<n><sg>:
+<m><n><pl>:اں
+<f><n><pl>:اں
 
 
 LEXICON NounInflFem
@@ -3009,10 +3009,10 @@ LEXICON NounRoot
 دعا[f,unmarked]
 چُت[f,unmarked]
 جن٘ڄ[f,unmarked]
-جڳ[m,unmarked]
-پن٘ج[f,unmarked]
+جڳ[I,m]
+پن٘ج[I,m]
 پاولی[m,unmarked]
-بھیݙاں[f,unmarked]
+بھیݙ[I,f]
 بٹھ[m,unmarked]
 اِیمان[m,unmarked]
 امیر[m,unmarked]

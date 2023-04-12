@@ -284,12 +284,13 @@ LEXICON ProInfl
 
 
 <P3><f><sg><dir>:ن٘دی
+<P3><f><sg><dir>:ندی
 <P3><f><pl><dir>:ندیاں
 <P3><f><sg><obl>:کوں
 <P3><f><pl><obl>:کوں
 
 LEXICON PronounRoot
-
+اون
 می
 اسا
 تی
@@ -308,9 +309,10 @@ LEXICON PronounRoot
 تس
 جی
 تہا
-اونک
-اون٘ک
+اون
+اون٘
 اِنھ
+اُو
 اُون
 LEXICON UnmarkedPronoun
 توں<prn><p2><sg>:توں
@@ -853,6 +855,7 @@ LEXICON AdjectiveRoot
 
 LEXICON AdjectiveRoot[unmarked]
 سخی
+بھنّاں
 خوار
 پکائی
 خوار
@@ -940,6 +943,7 @@ LEXICON AdjectiveRoot[unmarked]
 LEXICON AdverbRoot
 # negative adverbs TODO: tag as <neg>?
 ٻیٹھی
+کوئینی
 کنیں
 کتھائیں
 
@@ -1148,7 +1152,7 @@ LEXICON AdverbRoot
 متاں
 ہیٹھ
 سن٘ڳ
-
+سن٘ڄیں
 LEXICON ConjunctionRoot
 تے
 تاں
@@ -1243,6 +1247,18 @@ LEXICON NounRoot
 آنا:آن[m]
 آندھی:آندھی[m,f]
 ابا:اب[m]
+قصائی[m,unmarked]
+ہتھوں[m,unmarked]
+ککڑ[I,m]
+لعنت[I,f]
+غم[I,m]
+ذالیں[f,unmarked]
+دار[m,unmarked]
+اکّھیں[f,unmarked]
+ݙیہاڑے:ݙیہاڑ[m]
+گھڑا:گھڑ[m]
+گن٘دا:گن٘د[m]
+پروݨ[m,unmarked]
 اُبھے:اُبھے[m,f]
 ابے:ابے[m,f]
 اُٻاسی:اُٻاسی[m,f]
@@ -3196,6 +3212,7 @@ LEXICON VerbRoot
 ݙین٘دا[unmarked]
 وین٘دا[unmarked]
 کرین٘دے[unmarked]
+کریندو[unmarked]
 
 
 ݙت
@@ -3235,6 +3252,9 @@ LEXICON VerbRoot
 آن٘د
 آنݨ
 آکھ
+آڳئے[unmarked]
+کھان
+کرین٘
 آہ
 اُبھر
 اپڑ
@@ -3726,7 +3746,7 @@ LEXICON ProperNounRoot
 سن٘دھ[m]
 آدم[m]
 یعقوب[m]
-
+فرید[m]
 
 LEXICON Conjunction
 تے<cnjcoo>:تے
@@ -3807,6 +3827,7 @@ LEXICON Determiner
 اوہا<det>:اوہا
 اِنوں<det>:اِنوں
 اُنوں<det>:اُنوں
+کیڑھا<det>:کیڑھا
 
 
 
@@ -3831,7 +3852,7 @@ LEXICON Auxilliary
 ہووِن<aux><m><pl>:ہووِن
 تھیوی<aux><m><sg>:تھیوی
 ہَیں<aux><m><pl>:ہَیں
-
+تھین٘دا<aux><m><pl>:تھین٘دا
 
 
 

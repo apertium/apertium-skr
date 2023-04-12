@@ -94,8 +94,8 @@ LEXICON VerbInfl
 <sc><p1><pl><m>:ویں
 <sc><p1><pl><f>:ویں
 
-<sc><p2><sg><m>:
-<sc><p2><sg><f>:
+<sc><p2><sg><m>:و
+<sc><p2><sg><f>:و
 <sc><p2><pl><m>:ؤ
 <sc><p2><pl><f>:ؤ
 
@@ -150,11 +150,15 @@ LEXICON VerbInfl
 <pres><p3><pl><f>:دیاں
 
 <infi>:ݨ
+<infi>:ن
+
 <infi>:یجݨ 
 <irel>:ے
-<pst><P1><sg>:یا
-<pst><P2><sg>:یا
-<pst><P3><sg>:یا
+<pst><P1><m><sg>:یا
+<pst><P3><m><sg>:ا
+<pst><P2><m><sg>:یا
+<pst><P3><m><sg>:یا
+<pst><p1><f><sg>:ی
 
 
 <gerund><p1><sg><m>:ݨا

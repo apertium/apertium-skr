@@ -305,8 +305,9 @@ LEXICON PronounRoot
 جی
 تہا
 اونک
+اون٘ک
 اِنھ
-
+اُون
 LEXICON UnmarkedPronoun
 توں<prn><p2><sg>:توں
 آپ<prn><p2><pl>:آپ
@@ -324,7 +325,11 @@ LEXICON UnmarkedPronoun
 اپݨے<prn><p1><pl>:اپݨے
 جِنھاں<prn><p3><pl>:جِنھاں# Dir/LR
 آپے<prn><p3><p1>:آپے
-
+اِیہو<prn><p3><sg>:اِیہو
+اُوہ<prn><p3><p1>:اُوہ
+آپڑاں<prn><p1><sg>:آپڑاں
+خود<prn><p1><sg>:خود
+اپݨی<prn><p1><m><sg>:اپݨی
 
 PATTERN xwords
 LEXICON xwords
@@ -339,7 +344,7 @@ LEXICON xwords
 ان
 ہائے
 آں
-
+آلیاں
 PATTERN Adjective
 AdjectiveRoot[-unmarked] [<adj>:] AdjInfl
 AdjectiveRoot[unmarked] [<adj>:]
@@ -840,9 +845,14 @@ LEXICON AdjectiveRoot
 کوݙ
 آکڑ
 آدھ
+چنڳی
 
 LEXICON AdjectiveRoot[unmarked]
 سخی
+خوار
+پکائی
+خوار
+سہی
 بد
 خوش
 ٻَہوں
@@ -926,6 +936,9 @@ LEXICON AdjectiveRoot[unmarked]
 LEXICON AdverbRoot
 # negative adverbs TODO: tag as <neg>?
 ٻیٹھی
+کنیں
+کتھائیں
+
 کولھ
 کائے
 اݨ
@@ -1016,6 +1029,7 @@ LEXICON AdverbRoot
 اِیویں
 اچاروں
 ݙکاروں
+وݙائی
 ای
 ہی
 ایویں
@@ -1350,6 +1364,67 @@ LEXICON NounRoot
 بخت:بخت[f]
 بختی:بخت[f]
 بخشش:بخشش[m,f]
+کپاہ[f,unmarked]
+دھپ[f,unmarked]
+داروں[f,unmarked]
+حکیم[m,unmarked]
+چراغ[m,unmarked]
+ڄاݨن[m,unmarked]
+جوان[m,unmarked]
+ٹھیک[m,unmarked]
+ٹٻر[m,unmarked]
+تخت[m,unmarked]
+پیکیں[f,unmarked]
+پیریں[m,unmarked]
+پوہ[m,unmarked]
+ٻیلی[m,unmarked]
+ٻان٘ھ[f,unmarked]
+بھاہ[f,unmarked]
+بابو[f,unmarked]
+اروڑی[f,unmarked]
+بابل[m,unmarked]
+وپار[m,unmarked]
+کن٘دھ[f,unmarked]
+کندھ[f,unmarked]
+واء[m,unmarked]
+ہاتھی[m,unmarked]
+نائی[m,unmarked]
+میل[f,unmarked]
+کنّی[f,unmarked]
+مچھی[f,unmarked]
+لوݨ[m,unmarked]
+صدقے[m,unmarked]
+چوری[f,unmarked]
+ڄیٹھ[m,unmarked]
+صدقہ[m,unmarked]
+شکار[m,unmarked]
+سِک[f,unmarked]
+ستھݨ[f,unmarked]
+سبھو[f,unmarked]
+رنگ[m,unmarked]
+رڑھ[f,unmarked]
+رت[f,unmarked]
+ڈھول[m,unmarked]
+خون[m,unmarked]
+چوڑ[f,unmarked]
+جن[m,unmarked]
+تیرھاں[f,unmarked]
+پیڑ[f,unmarked]
+پڑوپی[f,unmarked]
+ٻار[f,unmarked]
+ٻاجھ[f,unmarked]
+بیج[f,unmarked]
+بھاڳ[f,unmarked]
+باغ[f,unmarked]
+ان٘ڳل[f,unmarked]
+اسوں[m,unmarked]
+وپار[m,unmarked]
+وات[f,unmarked]
+پوہ[m,unmarked]
+ٻیلی[m,unmarked]
+آس[f,unmarked]
+ݙینہہ[m,unmarked]
+
 بخشی:بخشی[m,f]
 بدام:بدام[m,f]
 بَد:بَد[m,f]
@@ -3119,6 +3194,22 @@ LEXICON VerbRoot
 وین٘دا[unmarked]
 کرین٘دے[unmarked]
 
+
+ݙت
+گݙوں[unmarked]
+بھݨ[unmarked]
+
+ہون٘د
+ٻیٹھ
+ریہ
+آوی[unmarked]
+کھاسوں[unmarked]
+رکھ
+اَکھی
+ݙٹھ
+
+
+
 سن٘ڄ
 ریہ
 بݨ
@@ -3628,7 +3719,10 @@ LEXICON ProperNounRoot
 یہودی[m]
 لہور[m]
 مئی[f]
-
+محمد[m]
+سن٘دھ[m]
+آدم[m]
+یعقوب[m]
 
 
 LEXICON Conjunction
@@ -3663,9 +3757,9 @@ LEXICON Preposition
 کنُوں<pr>:کنُوں
 کہ<pr>:کہ
 طرفوں<pr>:طرفوں
-نوں<pr>نوں
-لئی<pr>لئی
-
+نوں<pr>:نوں
+لئی<pr>:لئی
+وان٘گوں<pr>:وان٘گوں
 
 LEXICON Determiner
 جو<det>:جو
@@ -3699,8 +3793,17 @@ LEXICON Determiner
 کیڑھی<det>:کیڑھی
 کتھ<det>:کتھ
 جین٘دا<det>:جین٘دا
-جیڑھے<det>جیڑھے
-
+جیڑھے<det>:جیڑھے
+جیہیں<det>:جیہیں
+جِہڑیاں<det>:جِہڑیاں
+خود<det>:خود
+جیہاں<det>:جیہاں
+جَو<det>:جَو
+جہڑے<det>:جہڑے
+جِنہاں<det>:جِنہاں
+اوہا<det>:اوہا
+اِنوں<det>:اِنوں
+اُنوں<det>:اُنوں
 
 
 
@@ -3723,7 +3826,8 @@ LEXICON Auxilliary
 تھین٘دی<aux><f><sg>:تھین٘دی
 پون٘دی<aux><f><sg>:پون٘دی
 ہووِن<aux><m><pl>:ہووِن
-
+تھیوی<aux><m><sg>:تھیوی
+ہَیں<aux><m><pl>:ہَیں
 
 
 
@@ -3742,7 +3846,7 @@ LEXICON Num
 ݙوجھا<num>:ݙوجھا
 ست<num>:ست
 دو<num>:دو
-
+ݙوہ<num>:ݙوہ
 
 
 

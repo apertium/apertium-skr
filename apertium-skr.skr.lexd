@@ -318,6 +318,7 @@ LEXICON PronounRoot
 اِنھ
 اُو
 اُون
+
 LEXICON UnmarkedPronoun
 توں<prn><p2><sg>:توں
 آپ<prn><p2><pl>:آپ
@@ -340,7 +341,7 @@ LEXICON UnmarkedPronoun
 آپڑاں<prn><p1><sg>:آپڑاں
 خود<prn><p1><sg>:خود
 اپݨی<prn><p1><m><sg>:اپݨی
-
+بعضے<prn><P3><m><f><pl>:بعضے
 PATTERN xwords
 LEXICON xwords
 
@@ -354,6 +355,8 @@ LEXICON xwords
 ان
 ہائے
 آں
+ءِے
+ءِ
 آلیاں
 PATTERN Adjective
 AdjectiveRoot[-unmarked] [<adj>:] AdjInfl
@@ -380,6 +383,9 @@ LEXICON AdjectiveRoot
 رادھ
 سدھ
 
+
+وڳڑ
+ویائ
 
 
 
@@ -859,6 +865,8 @@ LEXICON AdjectiveRoot
 
 LEXICON AdjectiveRoot[unmarked]
 سخی
+صاف
+چنڳا
 بھنّاں
 خوار
 پکائی
@@ -947,6 +955,11 @@ LEXICON AdjectiveRoot[unmarked]
 LEXICON AdverbRoot
 # negative adverbs TODO: tag as <neg>?
 ٻیٹھی
+نیڑے
+کݙاہیں
+تلوں
+نِھیں
+نناݨ
 کوئینی
 کنیں
 کتھائیں
@@ -1345,6 +1358,8 @@ LEXICON NounRoot
 اولاد:اولاد[m]
 اوّلیاں:اوّلیاں[m,f]
 اون٘دا:اون٘د[m]
+
+کان٘و:کان٘و [I,m]
 اوہا:اوہا[m,f]
 ایاݨا:ایاݨا[m,f]
 ایپ:ایپ[m,f]
@@ -1371,6 +1386,14 @@ LEXICON NounRoot
 باقی:باقی[m,f]
 باکری:باکری[m,f]
 بال:بال[m]
+کال[m,unmarked]
+پیار[m,unmarked]
+نوکر[I,m]
+مہاڑ[I,m]
+سُن٘ڄ[I,f]
+زیان[m,unmarked]
+تن[I,m]
+ارواح[f,unmarked]
 بانات:بانات[m,f]
 باندراں:باندراں[m,f]
 بان٘در:بان٘در[m,f]
@@ -1379,6 +1402,7 @@ LEXICON NounRoot
 باندی:باند[f]
 بان٘دی:بان٘د[f]
 بت:بت[m,f]
+ڳن٘ڈھ[I,f]
 بتݨ:بتݨ[m]
 بٹھ:بٹھ[f]
 بُجا:بُج[m]

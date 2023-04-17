@@ -193,6 +193,8 @@ LEXICON VerbInfl
 <impP><p3><sg><m>:ندا
 <impP><p3><sg><f>:ندی
 <impP><p3><pl><m>:ن٘دے
+<impP><p3><pl><m>:ندے
+<impP><p3><pl><m>:ویندن
 <impP><p3><pl><f>:ندیاں
 
 <fut><p1><sg><m>:ساں
@@ -223,7 +225,9 @@ LEXICON VerbInfl
 <dsimpP><p3><sg><m>:ویندا
 <dsimpP><p3><sg><f>:ویندی
 <dsimpP><p3><pl><m>:ویندے 
+<dsimpP><p3><pl><m>:ویندن
 <dsimpP><p3><pl><f>:ویندیاں
+<dsimpP><p3><pl><f>:ویندین
 
 <futpass><p1><sg><m>:یساں
 <futpass><p1><sg><f>:یساں

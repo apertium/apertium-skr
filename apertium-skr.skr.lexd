@@ -154,46 +154,46 @@ LEXICON VerbInfl
 
 <infi>:یجݨ 
 <irel>:ے
-<pst><P1><m><sg>:یا
-<pst><P3><m><sg>:ا
-<pst><P2><m><sg>:یا
-<pst><P3><m><sg>:یا
+<pst><p1><m><sg>:یا
+<pst><p3><m><sg>:ا
+<pst><p2><m><sg>:یا
+<pst><p3><m><sg>:یا
 <pst><p1><f><sg>:ی
 
 
-<gerund><p1><sg><m>:ݨا
+<ger><p1><sg><m>:ݨا
 
-<impP><p1><sg><m>:یندا
-<impP><p1><sg><f>:یندی
-<impP><p1><pl><m>:یندے
-<impP><p1><pl><f>:یندیاں
+<impf><part><p1><sg><m>:یندا
+<impf><part><p1><sg><f>:یندی
+<impf><part><p1><pl><m>:یندے
+<impf><part><p1><pl><f>:یندیاں
 
-<impP><p2><sg><m>:یندا
-<impP><p2><sg><f>:یندی
-<impP><p2><pl><m>:یندے
-<impP><p2><pl><f>:یندیاں
+<impf><part><p2><sg><m>:یندا
+<impf><part><p2><sg><f>:یندی
+<impf><part><p2><pl><m>:یندے
+<impf><part><p2><pl><f>:یندیاں
 
-<impP><p3><sg><m>:یندا
-<impP><p3><sg><f>:یندی
-<impP><p3><pl><m>:یندے
-<impP><p3><pl><f>:یندیاں
+<impf><part><p3><sg><m>:یندا
+<impf><part><p3><sg><f>:یندی
+<impf><part><p3><pl><m>:یندے
+<impf><part><p3><pl><f>:یندیاں
 
-<impP><p1><sg><m>:ندا
-<impP><p1><sg><f>:ندی
-<impP><p1><pl><m>:ن٘دے
-<impP><p1><pl><f>:ندیاں
+<impf><part><p1><sg><m>:ندا
+<impf><part><p1><sg><f>:ندی
+<impf><part><p1><pl><m>:ن٘دے
+<impf><part><p1><pl><f>:ندیاں
 
-<impP><p2><sg><m>:ندا
-<impP><p2><sg><f>:ندی
-<impP><p2><pl><m>:ن٘دے
-<impP><p2><pl><f>:ندیاں
+<impf><part><p2><sg><m>:ندا
+<impf><part><p2><sg><f>:ندی
+<impf><part><p2><pl><m>:ن٘دے
+<impf><part><p2><pl><f>:ندیاں
 
-<impP><p3><sg><m>:ندا
-<impP><p3><sg><f>:ندی
-<impP><p3><pl><m>:ن٘دے
-<impP><p3><pl><m>:ندے
-<impP><p3><pl><m>:یندن
-<impP><p3><pl><f>:ندیاں
+<impf><part><p3><sg><m>:ندا
+<impf><part><p3><sg><f>:ندی
+<impf><part><p3><pl><m>:ن٘دے
+<impf><part><p3><pl><m>:ندے
+<impf><part><p3><pl><m>:یندن
+<impf><part><p3><pl><f>:ندیاں
 
 <fut><p1><sg><m>:ساں
 <fut><p1><sg><f>:ساں
@@ -227,20 +227,20 @@ LEXICON VerbInfl
 <dsimpP><p3><pl><f>:ویندیاں
 <dsimpP><p3><pl><f>:ویندین
 
-<futpass><p1><sg><m>:یساں
-<futpass><p1><sg><f>:یساں
-<futpass><p1><pl><m>:یسوں
-<futpass><p1><pl><f>:یسوں
+<fut><pass><p1><sg><m>:یساں
+<fut><pass><p1><sg><f>:یساں
+<fut><pass><p1><pl><m>:یسوں
+<fut><pass><p1><pl><f>:یسوں
 
-<futpass><p2><sg><m>:یسیں
-<futpass><p2><sg><f>:یسیں
-<futpass><p2><pl><m>:یسو
-<futpass><p2><pl><f>:یسو
+<fut><pass><p2><sg><m>:یسیں
+<fut><pass><p2><sg><f>:یسیں
+<fut><pass><p2><pl><m>:یسو
+<fut><pass><p2><pl><f>:یسو
 
-<futpass><p3><sg><m>:یسی
-<futpass><p3><sg><f>:یسی
-<futpass><p3><pl><m>:یسن
-<futpass><p3><pl><f>:یسن
+<fut><pass><p3><sg><m>:یسی
+<fut><pass><p3><sg><f>:یسی
+<fut><pass><p3><pl><m>:یسن
+<fut><pass><p3><pl><f>:یسن
 
 
 
@@ -265,7 +265,7 @@ LEXICON ProInfl
 <m><pl><obl>:کوں
 <m><sg><voc>:ݙیا
 <m><pl><voc>:ݙیو
-<fm><pl><ablative>:اں
+<mf><pl><abl>:اں
 
 <f><sg><dir>:ݙی
 <f><pl><dir>:ݙیاں
@@ -274,10 +274,10 @@ LEXICON ProInfl
 <f><sg><voc>:ݙی
 <f><pl><voc>:ݙیو
 
-<P3><m><sg><dir>:ندا
-<P3><m><pl><dir>:ندے
-<P3><m><sg><obl>:کوں
-<P3><m><pl><obl>:کوں
+<p3><m><sg><dir>:ندا
+<p3><m><pl><dir>:ندے
+<p3><m><sg><obl>:کوں
+<p3><m><pl><obl>:کوں
 
 <f><sg><dir>:ی
 <f><pl><dir>:یاں
@@ -285,11 +285,11 @@ LEXICON ProInfl
 <m><pl><dir>:ے
 
 
-<P3><f><sg><dir>:ن٘دی
-<P3><f><sg><dir>:ندی
-<P3><f><pl><dir>:ندیاں
-<P3><f><sg><obl>:کوں
-<P3><f><pl><obl>:کوں
+<p3><f><sg><dir>:ن٘دی
+<p3><f><sg><dir>:ندی
+<p3><f><pl><dir>:ندیاں
+<p3><f><sg><obl>:کوں
+<p3><f><pl><obl>:کوں
 
 LEXICON PronounRoot
 اون
@@ -326,7 +326,7 @@ LEXICON UnmarkedPronoun
 اوں<prn><sg>:اوں# Dir/LR
 اُوں<prn><sg>:اُوں# Dir/LR
 آپڑیں<prn><pl>:آپڑیں
-تہاݙے<prn><P2><p>:تہاݙے
+تہاݙے<prn><p2><p>:تہاݙے
 مَیں<prn><p1><sg>:مَیں# Dir/LR
 جنہاں<prn><p3><pl>:جنہاں# Dir/LR
 آپڑیاں<prn><p1><pl>:آپڑیاں
@@ -339,8 +339,8 @@ LEXICON UnmarkedPronoun
 آپڑاں<prn><p1><sg>:آپڑاں
 خود<prn><p1><sg>:خود
 اپݨی<prn><p1><m><sg>:اپݨی
-بعضے<prn><P3><m><f><pl>:بعضے
-PATTERN xwords
+بعضے<prn><p3><m><f><pl>:بعضے
+
 LEXICON xwords
 
 کو
@@ -1226,7 +1226,7 @@ LEXICON NounRoot
 جَیں[I,f]
 سال[I,m]
 رام[m,unmarked]
-ݙینہہ[m,umarked]
+ݙینہہ[m,unmarked]
 برکت[I,f]
 بھُوم[m,unmarked]
 اکّھ[I,f]
@@ -3229,7 +3229,7 @@ LEXICON VerbRoot
 مرے[unmarked]
 ون٘ڄے[unmarked]
 ڄاݨے[unmarked]
-تھیا[unmared]
+تھیا[unmarked]
 ون٘ڄے[unmarked]
 ݙیو[unmarked]
 ݙیو[unmarked]
